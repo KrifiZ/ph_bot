@@ -14,7 +14,7 @@ class webrequest:
     self.nick_suffix = nick_suffix
   
   def get_accs(self):
-    with open('accs.txt', "r+") as f:
+    with open('accounts.txt', "r+") as f:
       self.accs = f.readlines()
       
       
